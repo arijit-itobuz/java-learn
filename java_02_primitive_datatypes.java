@@ -11,13 +11,13 @@ public class java_02_primitive_datatypes {
     byte _byte = 3; // 8 bit signed [ -128, 127 ]
     short _short = 33; // 16 bit signed [-32,768, 32,767]
     int _int = 333; // 32 bit signed
-    long _long = 3333; // 64 bit signed
+    long _long = 3333L; // 64 bit signed
 
     char _char = 'a'; // 16 bit unsigned
 
     boolean _bool = true; // true or false
 
-    float _float = 3.5f;
+    float _float = 3.5F;
     double _double = 3.5;
 
     String res = MessageFormat.format("""
