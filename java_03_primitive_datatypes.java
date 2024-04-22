@@ -1,6 +1,6 @@
 import java.text.MessageFormat;
 
-public class java_02_primitive_datatypes {
+public class java_03_primitive_datatypes {
 
   public static void main(String[] args) {
 
@@ -9,9 +9,9 @@ public class java_02_primitive_datatypes {
      */
 
     byte _byte = 3; // 8 bit signed [ -128, 127 ]
-    short _short = 33; // 16 bit signed [-32,768, 32,767]
-    int _int = 333; // 32 bit signed
-    long _long = 3333L; // 64 bit signed
+    short _short = 33; // 16 bit signed [ -32,768, 32,767 ]
+    int _int = 333; // 32 bit signed [- 2,147,483,648, 2,147,483,647 ]
+    long _long = 3333L; // 64 bit signed [ -9,223,372,036,854,775,808, 9,223,372,036,854,775,807 ]
 
     char _char = 'a'; // 16 bit unsigned
 

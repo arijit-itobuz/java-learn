@@ -1,6 +1,6 @@
 import java.text.MessageFormat;
 
-public class java_03_typecasting {
+public class java_04_typecasting {
   public static void main(String[] args) {
 
     byte b = 127;
