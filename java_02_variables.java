@@ -17,7 +17,8 @@ public class java_02_variables {
 
     System.out.println("sum of local variables: " + sum());
     System.out.println("instance variable: " + new java_02_variables().a);
-    System.out.println("static variable: " + b);
+    System.out.println("static variable (call without class name): " + b);
+    System.out.println("static variable (call with class name): " + java_02_variables.b);
 
   }
 
