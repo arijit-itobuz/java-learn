@@ -12,3 +12,7 @@
 > set env: JAVA_HOME=<path_to_jdk_dir>
 
 > set env: PATH=<path_to_jdk_bin_dir>
+
+# Java MacOS Commands
+
+> list java versions: /usr/libexec/java_home -V
